@@ -1,0 +1,38 @@
+.star-span {
+    color: red;
+}
+
+.td-one {
+    background-color: grey;
+}
+
+.td-two {
+    background-color: rgb(192, 190, 190);
+}
+
+.td-three {
+    background-color: rgb(184, 88, 176);
+}
+
+.td-four {
+    background-color: rgb(44, 190, 216);
+}
+
+.container-1 {
+    border: 1px solid red;
+    padding: 1px;
+    margin: 5px;
+}
+
+.table-one {
+    background-color: crimson;
+}
+
+#main-table {
+    border: 2px dashed coral;
+}
+
+#title-table {
+    border: 5px dotted royalblue;
+    background: linear-gradient(90deg, honeydew, red);
+}
