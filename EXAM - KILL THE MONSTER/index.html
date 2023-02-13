@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kill The Monster</title>
+    <link rel="stylesheet" href="./style.css">
+
+</head>
+
+<body>
+    <!-- RESTART IS NOT INCLUDED -->
+    <div class="container">
+        <div class="kill-the-monster">
+            <label id="kill">Kill The Monster</label>
+        </div>
+
+
+        <div class="monsterhealth">
+            <label id="monster">Monster Health</label>
+            <div class="health-bar">
+                <div class="greenpart" id="monster-health" style="width: 100%;"></div>
+            </div>
+
+        </div>
+
+
+        <div class=" yourhealth">
+
+            <label id="your">Your Health</label>
+            <div class="health-bar">
+                <div class="greenpart" id="your-health" style="width: 100%;">
+
+                </div>
+            </div>
+        </div>
+
+        <div class="div-table">
+            <table id="buttons">
+                <tr>
+                    <td><input id="input-attack" type="button" value="ATTACK" onclick="attack()"></td>
+                    <td><input id="input-special" type="button" value="SPECIAL ATTACK" onclick="special()"></td>
+                </tr>
+                <tr>
+                    <td><input id="input-heal" type="button" value="HEAL" onclick="heal()"></td>
+                    <td><input id="input-give-up" type="button" value="GIVE UP" onclick="giveup()"></td>
+                </tr>
+            </table>
+        </div>
+        <div class="battle-log">
+            <label id="battlelog">Battle Log</label>
+            <pre id="battlelogMonster"></pre>
+        </div>
+
+    </div>
+    <script src="./script.js"></script>
+</body>
+
+</html>
